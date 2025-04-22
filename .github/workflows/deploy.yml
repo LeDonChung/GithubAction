@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '17'
-          distribution: 'adoptopenjdk'
+          distribution: 'temurin'  # Phân phối JDK từ Adoptium
 
       # Bước 3: Build và test ứng dụng Spring Boot với Maven
       - name: Build and Test with Maven
